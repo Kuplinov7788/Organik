@@ -10,7 +10,6 @@ import img2 from "../assets/img2.png";
 import bgImg from "../assets/orange-bg.png";
 const Home = () => {
 
-
   
 
   const productData = [
@@ -54,10 +53,6 @@ const Home = () => {
       setProducts(productData.slice(0, 8)); 
     }
   }, [showAll]);
-
-
-
-
 
 
 
