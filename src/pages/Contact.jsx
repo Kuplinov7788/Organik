@@ -1,8 +1,8 @@
 import React, { useEffect, useState } from 'react'
 import HeroImg from "../assets/Background.jpg"
-import img1 from "../assets/Image.png"
+import img1 from "../assets/Imagexob.png"
 import cardichImg from "../assets/Icon.png"
-import locn from "../assets/Iocn.png"
+import locn from "../assets/Iocnxob.png"
 import p1 from "../assets/1.png"
 import p2 from "../assets/2.png"
 import p3 from "../assets/3.png"
