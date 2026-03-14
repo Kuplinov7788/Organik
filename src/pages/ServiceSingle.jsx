@@ -12,7 +12,7 @@ import sea from '../assets/sea.png'
 const ServiceSingle = () => {
   return (
     <div >
-        <Header/>
+      <Header/>
         <section className='py-[50px]'>
             <div cclassName="w-[100%]   bg-no-repeat  bg-center bg-cover"
                 style={{ backgroundImage: `url(${bg})`, 
