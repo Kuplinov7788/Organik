@@ -1,6 +1,7 @@
 import React from 'react'
 import barg from '../assets/barg.png'
 import iktta from '../assets/two.png'
+import { Link } from 'react-router-dom'
 const Header = () => {
   return (
     <div>
@@ -21,9 +22,9 @@ const Header = () => {
         
              
                 <nav className="flex items-center gap-8 text-[#274c5b] font-medium text-sm">
-                  <a href="#" className="hover:text-green-600">Home</a>
-                  <a href="#" className="hover:text-green-600">About</a>
-                  <a href="#" className="hover:text-green-600">Pages</a>
+                  <Link to={"/"}>Home</Link>
+                  <Link to={"/About"}>About</Link>
+                  <Link to={""}>Pages</Link>
                   <a href="#" className="hover:text-green-600">Shop</a>
                   <a href="#" className="hover:text-green-600">Projects</a>
                   <a href="#" className="hover:text-green-600">News</a>
