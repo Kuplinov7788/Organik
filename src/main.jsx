@@ -7,6 +7,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Home from './pages/Home.jsx';
+import ShopSingle from "./pages/ShopSingle.jsx";
 
 const router = createBrowserRouter([
   {
@@ -16,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element:<Home />
+      },
+       {
+        path: "/shop/:id",
+        element: <ShopSingle />
       }
     ]
   },
